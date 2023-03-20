@@ -1,0 +1,27 @@
+{
+  "name": "require_for_html_test",
+  "version": "1.0.0",
+  "description": "require next synchronous html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KwakYounHo/__23.03.20.git"
+  },
+  "keywords": [
+    "html",
+    "module",
+    "nodeJS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KwakYounHo/__23.03.20/issues"
+  },
+  "homepage": "https://github.com/KwakYounHo/__23.03.20#readme",
+  "dependencies": {
+    "mysql2": "^3.2.0"
+  }
+}
