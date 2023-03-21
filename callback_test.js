@@ -3,11 +3,11 @@ function A (numberA, numberB) { // 3
 }
 
 function B (numberA, numberB) { // 7
-  return numberA + numberB;
+  return numberA - numberB;
 }
 
 function C (numberA, numberB) { // 11
-  return numberA + numberB;
+  return numberA * numberB;
 }
 
 function D (A, B, C, callback) {
@@ -18,4 +18,4 @@ function E (A,B,C) {
   return A + B + C;
 }
 
-console.log(D(A('가','나'),B('다','라'),C('마','바'),E));
+console.log(D(A(1,2),B(3,4),C(5,6),E));
